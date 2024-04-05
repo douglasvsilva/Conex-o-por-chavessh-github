@@ -20,3 +20,14 @@ fazr as configurações globais de usurio e email
 
   git config --global user.name "<nome-do-usuario-github>"
   git config --global user.name "<email-do-github>"
+
+
+Para lembrar:
+
+echo "# Instruções para uso do repositorio" >> README.md 
+git init 
+git add README.md 
+git commit -m "primeiro commit" 
+git branch -M main 
+git remote add origin git@github.com:user/nome-do-repositoriogithub.git
+git push -u origem principal
